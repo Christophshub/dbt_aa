@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: aa_database
+    schema: raw
+    description: "The data from the database 'aa', which contains logs and other data from the Java implementation of the Artificial Agent"
+    tables:
+      - name: metric_log
+        description: "This table contains the logs of the metrics collected from the Artificial Agent"
